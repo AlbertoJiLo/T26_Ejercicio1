@@ -28,7 +28,7 @@ public class Piezas {
 	private String nombre;
 	
 	@OneToMany
-	@JoinColumn(name="codigo")
+	@JoinColumn(name="codigopieza")
 	private List<Suministra> suministra;
 	
 	//Constructores

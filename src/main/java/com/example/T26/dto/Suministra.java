@@ -1,6 +1,6 @@
 package com.example.T26.dto;
 
-import java.io.Serializable;
+
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -13,7 +13,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="suministra")
-public class Suministra implements Serializable{
+public class Suministra{
 	
 	
 
