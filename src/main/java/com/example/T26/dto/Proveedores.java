@@ -23,7 +23,7 @@ public class Proveedores {
 	private String nombre;
 	
 	@OneToMany
-	@JoinColumn(name="idproveedor")
+	@JoinColumn(name="codigopieza")
 	private List<Suministra> suministra;
 	
 	//Constructores
